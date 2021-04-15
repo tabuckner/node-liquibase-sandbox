@@ -9,6 +9,19 @@ yarn add /absolute/path/to/the/local/clone/of/node-liquibase
 
 **NOTE: As long as the name of the package in that local directory matches what your imports expect you'll be good to go.**
 
+### Testing Library
+Once you've successfully installed the dependency you can:
+
+#### TypeScript
+```bash
+npx ts-node --project ./tsconfig.json ./index.ts
+```
+
+#### JavaScript
+```bash
+node ./testing.js
+```
+
 ### Testing CLI
 There's an NPM script in THIS package.json that will let you test the CLI functionality.
 
