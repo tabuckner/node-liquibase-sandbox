@@ -7,18 +7,8 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-14.14.40.tgz#05a7cd31154487f357ca0bec4334ed1b1ab825a0"
   integrity sha512-2HoZZGylcnz19ZSbvWhgWHqvprw1ZGHanxIrDWYykPD4CauLW4gcyLzCVfUN2kv/1t1F3CurQIdi+s1l9+XgEA==
 
-minimist@^1.2.5:
-  version "1.2.5"
-  resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.5.tgz#67d66014b66a6a8aaa0c083c5fd58df4e4e97602"
-  integrity sha512-FM9nNUYrRBAELZQT3xeZQ7fmMOBg6nWNmJKTcgsJeaLstP/UODVpGsr5OhXhhXg6f+qtJ8uiZ+PUxkDWcgIXLw==
-
-node-liquibase-ts@/Users/taylor/Dev/Liquibase/hackathons/node-liquibase-ts:
+node-liquibase@/Users/taylor/Dev/Liquibase/hackathons/node-liquibase-ts:
   version "2.0.0"
-
-"node-liquibase@file:../node-liquibase":
-  version "1.0.1"
-  dependencies:
-    minimist "^1.2.5"
 
 tslib@^2.2.0:
   version "2.2.0"

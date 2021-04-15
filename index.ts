@@ -1,6 +1,4 @@
-import {  } from 'node-liquibase';
-import { Liquibase, POSTGRESQL_DEFAULT_CONFIG } from 'node-liquibase-ts';
-import {  } from 'node-liquibase/lib/esm';
+import { Liquibase, POSTGRESQL_DEFAULT_CONFIG } from 'node-liquibase';
 
 const myConfig = {
   ...POSTGRESQL_DEFAULT_CONFIG,

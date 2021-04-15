@@ -1,7 +1,6 @@
-// const Liquibase = require('node-liquibase').Liquibase;
-const LiquibaseTS = require('node-liquibase-ts').Liquibase;
-const POSTGRESQL_DEFAULT_CONFIG = require('node-liquibase-ts').POSTGRESQL_DEFAULT_CONFIG;
-// const inst = new Liquibase({});
+const LiquibaseTS = require('node-liquibase').Liquibase;
+const POSTGRESQL_DEFAULT_CONFIG = require('node-liquibase').POSTGRESQL_DEFAULT_CONFIG;
+
 const myConfig = {
   ...POSTGRESQL_DEFAULT_CONFIG,
   changeLogFile: './changelog.xml',

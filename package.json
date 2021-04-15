@@ -5,8 +5,7 @@
   "author": "Taylor Buckner",
   "license": "MIT",
   "dependencies": {
-    "node-liquibase": "/Users/taylor/Dev/Liquibase/hackathons/node-liquibase",
-    "node-liquibase-ts": "/Users/taylor/Dev/Liquibase/hackathons/node-liquibase-ts"
+    "node-liquibase": "/Users/taylor/Dev/Liquibase/hackathons/node-liquibase-ts"
   },
   "devDependencies": {
     "@types/node": "^14.14.40",
