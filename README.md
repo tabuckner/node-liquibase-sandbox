@@ -8,3 +8,10 @@ yarn add /absolute/path/to/the/local/clone/of/node-liquibase
 ```
 
 **NOTE: As long as the name of the package in that local directory matches what your imports expect you'll be good to go.**
+
+### Testing CLI
+There's an NPM script in THIS package.json that will let you test the CLI functionality.
+
+```bash
+yarn node-liquibase --changeLogFile="changelog.xml" --url="jdbc:postgresql://localhost:5432/node_liquibase_testing" --username="yourusername" --password="yoursecurepassword" --classpath="/Users/taylor/Dev/Liquibase/hackathons/node-liquibase/drivers/postgresql-42.2.8.jar" status 
+```

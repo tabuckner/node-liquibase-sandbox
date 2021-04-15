@@ -7,6 +7,9 @@
   "dependencies": {
     "node-liquibase": "/Users/taylor/Dev/Liquibase/hackathons/node-liquibase-ts"
   },
+  "scripts": {
+    "node-liquibase": "node-liquibase"
+  },
   "devDependencies": {
     "@types/node": "^14.14.40",
     "tslib": "^2.2.0",
