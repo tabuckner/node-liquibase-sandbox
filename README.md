@@ -1,6 +1,15 @@
 ![Node and Liquibase](assets/img/node-liquibase-sandbox.png)
 # Node Liquibase Sandbox
 A tiny repo to help with evaluating [The Liquibase NPM Offering](https://www.npmjs.com/package/liquibase) for yourself!
+
+## Table of Contents
+* [Usage](#usage)
+  * [Database](#database)
+  * [TypeScript Files](#typescript-files)
+  * [JavaScript Files](#javascript-files)
+  * [CLI](#cli)
+* [Install a Different Version of node-liquibase](#install-a-different-version-of-node-liquibase)
+
 ## Usage
 ### Database
 #### What
@@ -32,7 +41,7 @@ Below is a simple command making use of `ts-node` to provide a very easy way of 
 npx ts-node --project ./tsconfig.json ./index.ts
 ```
 
-### JavaScript
+### JavaScript Files
 #### What
 There are bound to be users who _do not_ want to use TypeScript, and for this reason we've also provided support for "next gen" JavaScript.
 
