@@ -5,7 +5,7 @@
   "author": "Taylor Buckner",
   "license": "MIT",
   "dependencies": {
-    "liquibase": "/Users/taylor/Dev/Open-Source/Liquibase/node-liquibase"
+    "liquibase": "^0.0.0"
   },
   "scripts": {
     "node-liquibase": "node-liquibase"
