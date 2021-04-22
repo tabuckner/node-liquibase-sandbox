@@ -1,6 +1,6 @@
-import { Liquibase, POSTGRESQL_DEFAULT_CONFIG } from 'node-liquibase';
+import { Liquibase, LiquibaseConfig, POSTGRESQL_DEFAULT_CONFIG } from 'liquibase';
 
-const myConfig = {
+const myConfig: LiquibaseConfig = {
   ...POSTGRESQL_DEFAULT_CONFIG,
   changeLogFile: './changelog.xml',
   url: 'jdbc:postgresql://localhost:5432/node_liquibase_testing',
@@ -8,4 +8,5 @@ const myConfig = {
   password: 'yoursecurepassword',
 }
 const inst = new Liquibase(myConfig);
+
 inst.status();

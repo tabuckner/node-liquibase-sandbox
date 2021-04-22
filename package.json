@@ -5,7 +5,7 @@
   "author": "Taylor Buckner",
   "license": "MIT",
   "dependencies": {
-    "node-liquibase": "git+https://github.com/tabuckner/node-liquibase.git#versioned-release/liquibase-4-3-3"
+    "liquibase": "^4.3.6"
   },
   "scripts": {
     "node-liquibase": "node-liquibase"
