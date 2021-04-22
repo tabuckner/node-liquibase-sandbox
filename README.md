@@ -1,3 +1,4 @@
+![Node and Liquibase](assets/img/node-liquibase-sandbox.png)
 # Node Liquibase Sandbox
 A tiny repo to help with evaluating [The Liquibase NPM Offering](https://www.npmjs.com/package/liquibase) for yourself!
 ## Usage
