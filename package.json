@@ -5,10 +5,12 @@
   "author": "Taylor Buckner",
   "license": "MIT",
   "dependencies": {
-    "liquibase": "^4.3.6"
+    "liquibase": "/Users/taylor/Dev/Open-Source/node-liquibase"
   },
   "scripts": {
-    "node-liquibase": "node-liquibase"
+    "node-liquibase": "node-liquibase",
+    "test:ts": "npx ts-node --project ./tsconfig.json ./index.ts",
+    "test:js": "node ./testing.js"
   },
   "devDependencies": {
     "@types/node": "^14.14.40",

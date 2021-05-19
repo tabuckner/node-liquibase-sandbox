@@ -7,10 +7,11 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-14.14.40.tgz#05a7cd31154487f357ca0bec4334ed1b1ab825a0"
   integrity sha512-2HoZZGylcnz19ZSbvWhgWHqvprw1ZGHanxIrDWYykPD4CauLW4gcyLzCVfUN2kv/1t1F3CurQIdi+s1l9+XgEA==
 
-liquibase@^4.3.6:
-  version "4.3.6"
-  resolved "https://registry.yarnpkg.com/liquibase/-/liquibase-4.3.6.tgz#9f302a965fe72ec70b92515be7d5ef77b8e02836"
-  integrity sha512-O/wneEdiMliH0tZuy+9rQC6ckdpGaJ3St2ZC1o2fpFFo3scIeuZaFT9/mM2aGRLfgeM7fwdM1oBYmVQ13MiroQ==
+liquibase@/Users/taylor/Dev/Open-Source/node-liquibase:
+  version "2.0.3"
+
+"liquibase@file:../node-liquibase":
+  version "2.0.3"
 
 tslib@^2.2.0:
   version "2.2.0"
